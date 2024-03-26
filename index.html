@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculadora">
+        <div>
+            <h1>Calculadora</h1>
+        </div>
+        <h2 id="resultado_txt"></h2>
+        <div id="buttons">
+            <button class="simbolos" onclick="Clear()">C</button>
+            <button class="simbolos" onclick="percentagem()">%</button>
+            <button class="simbolos" onclick="Del()">Del</button>
+            <button class="simbolos" onclick="divisão()">/</button>
+            <button class="numero" onclick="num7()">7</button>
+            <button class="numero" onclick="num8()">8</button>
+            <button class="numero" onclick="num9()">9</button>
+            <button class="simbolos" onclick="multiplicação()">*</button>
+            <button class="numero" onclick="num4()">4</button>
+            <button class="numero" onclick="num5()">5</button>
+            <button class="numero" onclick="num6()">6</button>
+            <button class="simbolos" onclick="subtração()">-</button>
+            <button class="numero" onclick="num1()">1</button>
+            <button class="numero" onclick="num2()">2</button>
+            <button class="numero" onclick="num3()">3</button>
+            <button class="simbolos" onclick="adição()">+</button>
+            <button class="numero" onclick="num0()">0</button>
+            <button class="numero" onclick="Ans()">Ans</button>
+            <button class="numero" id="virgula" onclick="virgula()">,</button>
+            <button class="igual" id="igual" onclick="igual()">=</button>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
